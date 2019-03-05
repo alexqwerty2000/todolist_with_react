@@ -1,0 +1,7 @@
+.task-list{
+    cursor: pointer;
+}
+.task-done{
+    /*list-style-type: none;*/
+    text-decoration: line-through;
+}
