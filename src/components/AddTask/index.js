@@ -7,7 +7,10 @@ export default class AddTask extends Component{
     }
 
     handlerChange =(event) =>{
-        const text = event.target.value
+        this.setState({
+            text: event.target.value
+        })
+        console.log(event.target.value)
     }
     render(){
         return(

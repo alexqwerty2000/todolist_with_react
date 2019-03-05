@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TodoList from "./components/TodoList";
 import AddTask from "./components/AddTask";
+import Pages from "./components/pages";
 
 
 class App extends Component {
@@ -72,6 +73,7 @@ class App extends Component {
                 taskDone ={this.taskDone}
                 deleteTaskFromList = {this.deleteTask}
             />
+            <Pages/>
         </div>
       </div>
     );
